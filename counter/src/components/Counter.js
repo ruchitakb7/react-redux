@@ -13,7 +13,7 @@ const Counter = () => {
       <h1>Redux Counter</h1>
       <div className={classes.value}>{counter}</div>
       <div className={classes.btn} >
-        <button onClick={()=>dispatch(increment())}>Increament by 5</button>
+        <button  onClick={()=>dispatch(increment())}>Increament by 5</button>
         <button onClick={()=>dispatch(decrement())}>Decreament by 5</button>
         <button onClick={()=>dispatch(incrementby2())}>Increament by 2</button>
         <button onClick={()=>dispatch(decrementby2())}>Decreament by 2</button>

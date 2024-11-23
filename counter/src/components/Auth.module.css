@@ -7,6 +7,15 @@
   text-align: center;
   background-color: #f4f0fa;
 }
+.box{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin-top: 400px;
+    margin-right: 300px;
+
+}
+
 
 .control {
   margin-bottom: 0.5rem;
